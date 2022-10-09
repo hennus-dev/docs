@@ -17,7 +17,7 @@ layout: editorial
 
 ## Laz-target documentación
 
-documentation para Laz-target:
+documentation for Laz-target:
 
 {% content-ref url="laz-target.md" %}
 [laz-target.md](laz-target.md)
