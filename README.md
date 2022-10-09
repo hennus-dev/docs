@@ -1,9 +1,11 @@
 ---
-description: jkhg
+description: >-
+  docs in development. little by little we will create the documentation for our
+  scripts. and facilitating is work. you can send us suggestions in our dicord.
 ---
 
-# test
+# Lararus dev
 
-hjkng
+{% embed url="https://discord.gg/yDXK7qcBfx" %}
 
-<table><thead><tr><th></th><th></th><th></th><th></th><th data-type="checkbox"></th></tr></thead><tbody><tr><td>fas </td><td>lafskddñ </td><td> fdadsk </td><td></td><td>true</td></tr><tr><td></td><td></td><td></td><td></td><td>false</td></tr><tr><td></td><td></td><td></td><td></td><td>false</td></tr><tr><td></td><td></td><td></td><td></td><td>false</td></tr></tbody></table>
+{% embed url="https://discord.com/api/guilds/978397781544816660/widget.json" %}
