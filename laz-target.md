@@ -74,6 +74,6 @@ exports[''Laz-target']:AddTargetObjects(name , model, distance,  options, BlackL
 {% endtab %}
 {% endtabs %}
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 these exports can be updated. it's still a beta.
 {% endhint %}
