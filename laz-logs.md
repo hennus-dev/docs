@@ -38,6 +38,16 @@ tag  -- true or false
 {% endtab %}
 {% endtabs %}
 
+### field
+
+```lua
+field = {
+    name = 'option Title',
+    value = 'option value',
+    inline = true --true or false
+}
+```
+
 {% hint style="warning" %}
 ## Desactive description
 
