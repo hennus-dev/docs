@@ -7,7 +7,14 @@ description: standalone system to create logs on our server
 {% tabs %}
 {% tab title="client" %}
 ```lua
-TriggerServerEvent('Laz-Logs:LogFields',typewebhook, title, Description, color, footer, field, id)
+TriggerServerEvent('Laz-Logs:LogFields',
+    typewebhook,
+    title,
+    Description,
+    color,
+    footer,
+    field,
+    id)
 ```
 {% endtab %}
 
@@ -22,7 +29,14 @@ TriggerEvent('Laz-Logs:LogFields',typewebhook, title, Description, color, footer
 ## Desactive description
 
 * ```lua
-  TriggerServerEvent('Laz-Logs:LogFields',typewebhook, title, false, color, footer, field, id)
+  TriggerServerEvent('Laz-Logs:LogFields',
+  typewebhook,
+  title,
+  false,
+  color,
+  footer,
+  field,
+  id)
   ```
 {% endhint %}
 
