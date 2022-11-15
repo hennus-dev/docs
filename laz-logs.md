@@ -4,6 +4,8 @@ description: standalone system to create logs on our server
 
 # Laz-logs
 
+## Laz-Logs:LogFields
+
 {% tabs %}
 {% tab title="client" %}
 ```lua
@@ -14,7 +16,9 @@ TriggerServerEvent('Laz-Logs:LogFields',
     color,
     footer,
     field,
-    id)
+    id,
+    tag -- true or false
+    )
 ```
 {% endtab %}
 
@@ -27,7 +31,9 @@ Description,
 color, 
 footer, 
 field, 
-id)
+id,
+tag  -- true or false
+)
 ```
 {% endtab %}
 {% endtabs %}
@@ -43,7 +49,53 @@ id)
   color,
   footer,
   field,
-  id)
+  id,
+  tag -- true pr false
+  )
   ```
 {% endhint %}
 
+{% hint style="info" %}
+## Active mentions
+
+* <pre class="language-lua"><code class="lang-lua">TriggerServerEvent('Laz-Logs:LogFields',
+  <strong>typewebhook,
+  </strong>title,
+  description,
+  color,
+  footer,
+  field,
+  id,
+  true
+  )</code></pre>
+{% endhint %}
+
+## Laz-Logs:LogFields
+
+{% tabs %}
+{% tab title="Client" %}
+```lua
+TriggerServerEvent('Laz-Logs:SimplyLog',
+typewebhook,
+title, 
+color, 
+'Inventario', 
+text,
+tag -- true or false
+)
+```
+{% endtab %}
+
+{% tab title="Server" %}
+```lua
+TriggerEvent('Laz-Logs:SimplyLog',
+typewebhook,
+title, 
+color, 
+'Inventario', 
+text,
+tag -- true or false
+)
+```
+{% endtab %}
+{% endtabs %}
