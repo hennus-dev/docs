@@ -18,3 +18,10 @@ TriggerEvent('Laz-Logs:LogFields',typewebhook, title, Description, color, footer
 {% endtab %}
 {% endtabs %}
 
+{% hint style="warning" %}
+## Desactive description
+
+* ```lua
+  TriggerServerEvent('Laz-Logs:LogFields',typewebhook, title, false, color, footer, field, id)
+  ```
+{% endhint %}
