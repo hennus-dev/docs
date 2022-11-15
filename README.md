@@ -16,13 +16,11 @@ layout: editorial
 
 ## Laz-target docs
 
-## Documentation for Laz-target:
-
 {% content-ref url="laz-target.md" %}
 [laz-target.md](laz-target.md)
 {% endcontent-ref %}
 
-## Documentation Laz-logs:
+## Laz-logs docs
 
 {% content-ref url="laz-logs.md" %}
 [laz-logs.md](laz-logs.md)
