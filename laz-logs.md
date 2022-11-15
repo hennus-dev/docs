@@ -25,3 +25,4 @@ TriggerEvent('Laz-Logs:LogFields',typewebhook, title, Description, color, footer
   TriggerServerEvent('Laz-Logs:LogFields',typewebhook, title, false, color, footer, field, id)
   ```
 {% endhint %}
+
