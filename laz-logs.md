@@ -20,7 +20,14 @@ TriggerServerEvent('Laz-Logs:LogFields',
 
 {% tab title="Server" %}
 ```lua
-TriggerEvent('Laz-Logs:LogFields',typewebhook, title, Description, color, footer, field, id)
+TriggerEvent('Laz-Logs:LogFields',
+typewebhook, 
+title, 
+Description, 
+color, 
+footer, 
+field, 
+id)
 ```
 {% endtab %}
 {% endtabs %}
