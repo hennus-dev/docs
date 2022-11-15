@@ -80,7 +80,7 @@ field = {
   )</code></pre>
 {% endhint %}
 
-## Laz-Logs:LogFields
+## Laz-Logs:SimplyLog
 
 {% tabs %}
 {% tab title="Client" %}
